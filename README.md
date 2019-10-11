@@ -52,4 +52,4 @@ For create your pipeline you have to add the file `Jenkinsfile` in jenkins, also
     You can see how each POD is updated to the green version incrementally
 
 ---
-**You can see the execution results in [images](https://github.com/herrera-luis/) folder**
+**You can see the execution results in [images](https://github.com/herrera-luis/eks-blue-green-deployment/tree/master/images) folder**
