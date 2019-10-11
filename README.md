@@ -10,6 +10,13 @@ In this project you will apply the skills and knowledge which were developed thr
 * Building Docker containers in pipelines
 
 ---
+### Setting your AWS infrastructure
+
+For deploy your infrastructure execute the next script inside cloudformation/ folder:
+
+    sh ./create.sh CloudDevOpsCapstone network_and_eks.yml network_and_eks.json
+    
+Note: The creation of EKS cluster takes almost 10 minutes
 
 ### Setting your pipeline for lint, build and publish your docker image
 
@@ -44,3 +51,5 @@ For create your pipeline you have to add the file `Jenkinsfile` in jenkins, also
     
     You can see how each POD is updated to the green version incrementally
 
+---
+**You can see the execution results in [images](https://github.com/herrera-luis/) folder**
