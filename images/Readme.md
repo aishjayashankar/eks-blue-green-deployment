@@ -1,6 +1,6 @@
 ## Execution results
 
-##AWS
+## AWS
 ### Deploying AWS infrastructure
 ![img-0](0_deploying_aws_infrastructure.png) 
 
