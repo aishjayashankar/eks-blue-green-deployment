@@ -1,5 +1,5 @@
 Description: >
-    Luis Herrera / DevOps Nanodegree Capstone
+    Luis Herrera / Cloud DevOps Nanodegree Capstone
 
 Parameters:
 
@@ -294,7 +294,6 @@ Resources:
                 -   Ref: NodeImageId
                 -   Ref: NodeImageIdSSMParam
             InstanceType: !Ref NodeInstanceType
-            KeyName: devops-capstone
             SecurityGroups:
                 -   Ref: NodeSecurityGroup
             UserData: !Base64
