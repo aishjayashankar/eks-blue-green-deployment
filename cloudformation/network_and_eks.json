@@ -21,7 +21,7 @@
   },
   {
     "ParameterKey": "ClusterName",
-    "ParameterValue": "bluegreen-prod"
+    "ParameterValue": "BlueGreen-Prod"
   },
   {
     "ParameterKey": "NodeGroupName",
