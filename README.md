@@ -1,6 +1,6 @@
 ## AWS Elastic Kubernetes Service - Blue Green Deployment
 
-![img-diagram](diagram/diagram_capston_nanodegree88.jpeg) 
+![img-diagram](diagram/diagram_capston_nanodegree.jpeg) 
 
 In this project you will apply the skills and knowledge which were developed throughout the Cloud DevOps Nanodegree program. These include:
 
