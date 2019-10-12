@@ -29,21 +29,30 @@
 ![img-4](4_connect_your_machine_to_eks.png) 
 
 ### Getting Nodes of EKS Cluster
-![img-5](5_get_nodes_of_your_eks_cluster.png) 
+![img-5](5_getting_nodes_eks.png) 
 
 ### Setting controller blue green
 ![img-6](6_setting_controllers_blue_green.png) 
 
-### Getting services deployed
-![img](getting_services_deployed.png)
+### Setting service of load balancer type
+![img-6](7_setting_service_load_balancer.png)  
 
-### Checking green deployment
-![img_8](8_checking_green_deployment.png)
+### Getting service deployed
+![img](getting_service_deployed.png)
 
-### Doing a change to blue-green-service.json for blue deploy
+### Checking blue deployment
+![img_8](8_checking_blue_deployment.png)
+
+### Doing a change to blue-green-service.json for green deploy
 ![img_9](9_doing_a_change_to_blue-green-service-json_file.png) 
 
 ### After do: kubectl apply -f blue-green-service.json
 ![img_10](10_after_do_apply_to_service.png)
 
+### Describing PODs for see how works the updates
 
+Server A
+![img_13](13_server_a.png)
+
+Server B
+![img_14](14_server_b.png)
