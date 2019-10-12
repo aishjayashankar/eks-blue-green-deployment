@@ -49,10 +49,13 @@
 ### After do: kubectl apply -f blue-green-service.json
 ![img_10](10_after_do_apply_to_service.png)
 
-### Describing PODs for see how works the updates
+### Describing PODs and Service for see how works the updates
 
 Server A
 ![img_13](13_server_a.png)
 
 Server B
 ![img_14](14_server_b.png)
+
+Load Balancer Service
+![img_15](15_load_balancer_service.png)
