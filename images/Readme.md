@@ -13,7 +13,7 @@
 ![img-12-1](12_1_checking_eks_nodes.png)
 
 ---
-##Jenkins Pipeline
+## Jenkins Pipeline
 ### Running pipeline lint step
 ![img-1](1_running_pipeline_lint_step.png) 
 
@@ -43,7 +43,7 @@
 ### Checking blue deployment
 ![img_8](8_checking_blue_deployment.png)
 
-### Doing a change to blue-green-service.json for green deploy
+### Doing a change to blue-green-service.json for do green deploy
 ![img_9](9_doing_a_change_to_blue-green-service-json_file.png) 
 
 ### After do: kubectl apply -f blue-green-service.json
