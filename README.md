@@ -20,6 +20,14 @@ For deploy your infrastructure execute the next script inside cloudformation/ fo
     
 Note: The creation of EKS cluster takes almost 10 minutes
 
+After the EKS cluster creation is success you can add EKS context in your machine with next command:
+
+    aws --region us-west-2 eks update-kubeconfig --name BlueGreen-Prod
+
+See nodes attached to your cluster with next command:
+
+    kubectl get nodes
+
 ### Setting your pipeline for lint, build and publish your docker image
 
 In order to create your pipeline you have to add the file `Jenkinsfile` in jenkins, also before run the pipeline you have to do login in Docker for publish image task
