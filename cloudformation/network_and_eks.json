@@ -24,6 +24,10 @@
     "ParameterValue": "BlueGreen-Prod"
   },
   {
+    "ParameterKey": "ClusterVersion",
+    "ParameterValue": "1.14"
+  },
+  {
     "ParameterKey": "NodeGroupName",
     "ParameterValue": "eks-nodegroup"
   }
