@@ -17,7 +17,10 @@ spec:
         backend:
           serviceName: green-service
           servicePort: 80
-      - path: /blue
+  - host: blue.deploy
+    http:
+      paths:   
+      - path: /
         backend:
           serviceName: blue-service
           servicePort: 80

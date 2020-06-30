@@ -15,6 +15,7 @@ spec:
     metadata:
       labels:
         run: app
+        group: green
         version: 0.0.2
     spec:
       containers:
