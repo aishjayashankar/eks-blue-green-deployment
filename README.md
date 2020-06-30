@@ -64,16 +64,15 @@ In order to create your pipeline you have to add the file `Jenkinsfile` in jenki
 
     `sh ./7_expose_url_with_load_balancer.sh`
 
-   Then you can know the **EXTERNAL-IP** and check the application deployed in your browser with the paths: 
-   *    /     
-   *    /blue
+   Then you can know the **EXTERNAL-IP** and check the application deployed in your browser with the path `/`
+
 
 ### Notes
 
-* In order to do a blue-green deployment update the section to **version** in `4_blue-service.yaml` and `5_green-service.yaml` files
+* In order to do a blue-green deployments for future releases update the section to **version** in `4_blue-service.yaml` and `5_green-service.yaml` files
 
-* Another way is doing a new deploy of an deployment with the respective service and then add a new `path` in  `6_ingress.yaml` file
+* You can access to the `blue` version by adding on the header request:
 
+        Host: blue.deploy
 
----
-**You can see the execution results in [images](https://github.com/herrera-luis/eks-blue-green-deployment/tree/master/images) folder**
+    This header will be processed by `Ingress` which will be redirecting the request to **blue service**
