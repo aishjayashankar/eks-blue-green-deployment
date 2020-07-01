@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     run: app
-  name: app-blue
+  name: app-version-1
   namespace: default
 spec:
   replicas: 1
@@ -15,12 +15,11 @@ spec:
     metadata:
       labels:
         run: app
-        group: blue
         version: 0.0.1
     spec:
       containers:
       - name: app
-        image: errm/versions:0.0.1
+        image: herreraluis/basic_example:0.0.1
         imagePullPolicy: Always
         ports:
-        - containerPort: 3000
+        - containerPort: 5000
