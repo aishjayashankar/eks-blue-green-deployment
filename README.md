@@ -66,6 +66,9 @@ In order to create your pipeline you have to add the file `Jenkinsfile` in jenki
 
    Then you can know the **EXTERNAL-IP** and check the application deployed in your browser with the path `/`
 
+8) Remove the infrastructure:
+
+    `sh ./destroy.sh CloudDevOpsCapstone network_and_eks.yml network_and_eks.json`
 
 ### Notes
 
